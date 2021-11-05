@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F769D315273570C9004CC83E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F769D314273570C9004CC83E /* StartViewController.swift */; };
 		F76B5A9827242A5500E36B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B5A9727242A5500E36B19 /* AppDelegate.swift */; };
 		F76B5A9A27242A5500E36B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B5A9927242A5500E36B19 /* SceneDelegate.swift */; };
-		F76B5A9C27242A5500E36B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B5A9B27242A5500E36B19 /* ViewController.swift */; };
+		F76B5A9C27242A5500E36B19 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B5A9B27242A5500E36B19 /* SettingsViewController.swift */; };
 		F76B5A9F27242A5500E36B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B5A9D27242A5500E36B19 /* Main.storyboard */; };
 		F76B5AA127242A5800E36B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B5AA027242A5800E36B19 /* Assets.xcassets */; };
 		F76B5AA427242A5800E36B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B5AA227242A5800E36B19 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F76B5A9427242A5500E36B19 /* HW2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F769D314273570C9004CC83E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F76B5A9427242A5500E36B19 /* HW2.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B5A9727242A5500E36B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F76B5A9927242A5500E36B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F76B5A9B27242A5500E36B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76B5A9B27242A5500E36B19 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F76B5A9E27242A5500E36B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76B5AA027242A5800E36B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76B5AA327242A5800E36B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,7 +42,7 @@
 		F76B5A8B27242A5500E36B19 = {
 			isa = PBXGroup;
 			children = (
-				F76B5A9627242A5500E36B19 /* HW2.2 */,
+				F76B5A9627242A5500E36B19 /* HW2.6 */,
 				F76B5A9527242A5500E36B19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		F76B5A9527242A5500E36B19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F76B5A9427242A5500E36B19 /* HW2.2.app */,
+				F76B5A9427242A5500E36B19 /* HW2.6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F76B5A9627242A5500E36B19 /* HW2.2 */ = {
+		F76B5A9627242A5500E36B19 /* HW2.6 */ = {
 			isa = PBXGroup;
 			children = (
+				F769D314273570C9004CC83E /* StartViewController.swift */,
+				F76B5A9B27242A5500E36B19 /* SettingsViewController.swift */,
+				F76B5A9D27242A5500E36B19 /* Main.storyboard */,
 				F76B5A9727242A5500E36B19 /* AppDelegate.swift */,
 				F76B5A9927242A5500E36B19 /* SceneDelegate.swift */,
-				F76B5A9B27242A5500E36B19 /* ViewController.swift */,
-				F76B5A9D27242A5500E36B19 /* Main.storyboard */,
 				F76B5AA027242A5800E36B19 /* Assets.xcassets */,
 				F76B5AA227242A5800E36B19 /* LaunchScreen.storyboard */,
 				F76B5AA527242A5800E36B19 /* Info.plist */,
 			);
-			path = HW2.2;
+			path = HW2.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F76B5A9327242A5500E36B19 /* HW2.2 */ = {
+		F76B5A9327242A5500E36B19 /* HW2.6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F76B5AA827242A5800E36B19 /* Build configuration list for PBXNativeTarget "HW2.2" */;
+			buildConfigurationList = F76B5AA827242A5800E36B19 /* Build configuration list for PBXNativeTarget "HW2.6" */;
 			buildPhases = (
 				F76B5A9027242A5500E36B19 /* Sources */,
 				F76B5A9127242A5500E36B19 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = HW2.2;
+			name = HW2.6;
 			productName = HW2.2;
-			productReference = F76B5A9427242A5500E36B19 /* HW2.2.app */;
+			productReference = F76B5A9427242A5500E36B19 /* HW2.6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F76B5A8F27242A5500E36B19 /* Build configuration list for PBXProject "HW2.2" */;
+			buildConfigurationList = F76B5A8F27242A5500E36B19 /* Build configuration list for PBXProject "HW2.6" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F76B5A9327242A5500E36B19 /* HW2.2 */,
+				F76B5A9327242A5500E36B19 /* HW2.6 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76B5A9C27242A5500E36B19 /* ViewController.swift in Sources */,
+				F76B5A9C27242A5500E36B19 /* SettingsViewController.swift in Sources */,
+				F769D315273570C9004CC83E /* StartViewController.swift in Sources */,
 				F76B5A9827242A5500E36B19 /* AppDelegate.swift in Sources */,
 				F76B5A9A27242A5500E36B19 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +295,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ4MVXT5JD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW2.2/Info.plist;
+				INFOPLIST_FILE = HW2.6/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HW2.6;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SergeyChumakov.HW2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = SergeyChumakov.HW2.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +325,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ4MVXT5JD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW2.2/Info.plist;
+				INFOPLIST_FILE = HW2.6/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HW2.6;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SergeyChumakov.HW2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = SergeyChumakov.HW2.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F76B5A8F27242A5500E36B19 /* Build configuration list for PBXProject "HW2.2" */ = {
+		F76B5A8F27242A5500E36B19 /* Build configuration list for PBXProject "HW2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F76B5AA627242A5800E36B19 /* Debug */,
@@ -352,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F76B5AA827242A5800E36B19 /* Build configuration list for PBXNativeTarget "HW2.2" */ = {
+		F76B5AA827242A5800E36B19 /* Build configuration list for PBXNativeTarget "HW2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F76B5AA927242A5800E36B19 /* Debug */,
