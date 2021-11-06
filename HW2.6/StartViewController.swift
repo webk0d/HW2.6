@@ -13,35 +13,41 @@ protocol SettingsViewControllerDelegate {
 
 
 class StartViewController: UIViewController {
-
+    
+    // MARK: - IB Outlet
     @IBOutlet var viewColorStartVC: UIView!
     
-    var colorUI = UIColor(red: CGFloat(0.0), green: CGFloat(0.0), blue: CGFloat(0.0), alpha: 1)
     
+    // MARK: - Public Propirties
+    var colorUI = UIColor(red: CGFloat(1.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: 1)
+    
+    // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         updateColorView(color: colorUI)
 
     }
     
+    // MARK: - Navigate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let navigationVC = segue.destination as? UINavigationController else { return }
-        guard let settingsVC = navigationVC.topViewController as? SettingsViewController else { return }
+        guard let settingsVC = segue.destination as? SettingsViewController else { return }
         settingsVC.colorUInext = colorUI
         settingsVC.delegate = self
     }
     
+    // MARK: - Private Methods
     private func updateColorView(color: UIColor) {
         viewColorStartVC.backgroundColor = color
     }
 
 }
 
+// MARK: - SettingsViewControllerDelegate
 extension StartViewController: SettingsViewControllerDelegate {
     func setUlColor(for colorUInext: UIColor) {
-        updateColorView(color: colorUInext)
         self.colorUI = colorUInext
-        
+        updateColorView(color: colorUInext)
+                
     }
     
 
